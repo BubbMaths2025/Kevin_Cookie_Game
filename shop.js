@@ -42,7 +42,7 @@ function personSVG(i, keeper=false){
  <g fill="#352c27"><circle cx="-6" cy="14" r="1.7"/><circle cx="6" cy="14" r="1.7"/></g><path d="M-5 22Q0 28 6 21" fill="none" stroke="#7f4036" stroke-width="1.7" stroke-linecap="round"/>
  ${style===3||style===6?'<g fill="none" stroke="#514c48" stroke-width="1.5"><circle cx="-7" cy="14" r="5"/><circle cx="7" cy="14" r="5"/><path d="M-2 14H2"/></g>':''}
  ${style===7?'<path d="M-19 4Q-19-15 0-15Q18-15 18 4Z" fill="#d9ac4c"/><path d="M-21 4H23" stroke="#b88933" stroke-width="5" stroke-linecap="round"/>':''}
- ${keeper?'<path d="M-10 39H10L15 70H-15Z" fill="#47795b"/><path d="M-9 40L-7 33M9 40L7 33" stroke="#47795b" stroke-width="3"/><path d="M-18-1V-10Q-26-20-12-25Q-4-38 5-27Q24-29 21-16L18-1Z" fill="#fff9ec"/><path d="M-17-1H18" stroke="#dfd5be" stroke-width="3"/>':''}</g>`;
+ ${keeper?'<path d="M-10 39H10L15 70H-15Z" fill="#47795b"/><path d="M-9 40L-7 33M9 40L7 33" stroke="#47795b" stroke-width="3"/><path d="M-18-1V-10Q-26-20-12-25Q-4-38 5-27Q24-29 21-16L18-1Z" fill="#191919"/><path d="M-17-1H18" stroke="#383838" stroke-width="3"/>':''}</g>`;
 }
 document.getElementById('shopkeeper').innerHTML=`<g transform="translate(569 151)">${personSVG(4,true)}</g>`;
 let shopFrame=0,shopPlaying=false,shopLast=null;
